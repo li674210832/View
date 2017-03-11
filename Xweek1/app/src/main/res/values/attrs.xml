@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CIRCLE">
+        <attr name="waiban" format="dimension"></attr>
+        <attr name="neiban" format="dimension"></attr>
+        <attr name="yuancolor" format="color"></attr>
+        <attr name="textsize" format="dimension"></attr>
+        <attr name="te" format="string"></attr>
+
+    </declare-styleable>
+</resources>
