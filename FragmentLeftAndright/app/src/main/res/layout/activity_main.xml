@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="lining20170.bawe.com.fragmentleftandright.MainActivity">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/left">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/left"
+        android:layout_height="match_parent"
+        android:id="@+id/right">
+
+    </LinearLayout>
+</RelativeLayout>
